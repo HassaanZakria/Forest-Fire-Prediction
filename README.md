@@ -5,27 +5,6 @@ using classical machine learning algorithms.
 
 ---
 
-## 📁 Project Structure
-
-```
-forest_fire_prediction/
-├── data/
-│   └── forest_fire_data.csv      # Generated dataset (3,000 samples)
-├── models/
-│   └── best_model.pkl            # Saved best model after training
-├── outputs/
-│   ├── model_comparison.png      # CV AUC bar chart
-│   ├── roc_curves.png            # ROC curves for all models
-│   ├── confusion_matrix.png      # Confusion matrix of best model
-│   └── feature_importance.png    # Feature importances
-├── generate_dataset.py           # Synthetic dataset generator
-├── train.py                      # Model training & evaluation
-├── predict.py                    # Inference on new samples
-└── README.md
-```
-
----
-
 ## 🚀 How to Run
 
 ### Step 1 — Install dependencies
